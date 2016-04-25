@@ -264,7 +264,7 @@ export default () => (
         <CodePane source={code.hmr} lang="js" />
       </Slide>
       <Slide>
-        <Heading size={2} caps>TL;DR</Heading>
+        <Heading size={2} lineHeight={2} caps>Summary</Heading>
         <Appear><Heading size={4} textColor="white">Precompiling the server</Heading></Appear>
         <Appear><Heading size={4} textColor="white">No need to handle Webpack specifics</Heading></Appear>
         <Appear><Heading size={4} textColor="white">More configuration</Heading></Appear>
